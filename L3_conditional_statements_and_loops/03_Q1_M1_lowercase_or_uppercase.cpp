@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int main () {
+int main() {
     char c;
     cout << "enter a character:";
     cin >> c;
-    if( 65 <= c && c<= 90 ) {
+    if( c >= 'A' && c <= 'Z' ) {
         cout << "uppercase\n";
     } else {
         cout << "lowercase\n";
